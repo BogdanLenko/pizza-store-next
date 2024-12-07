@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Nunito } from "next/font/google";
 import "./globals.css";
-import {Header} from '@/components/shared/Header'
+import {Header} from '@/components/shared/header'
 
 const nunito = Nunito({ subsets: ['cyrillic'], variable: '--font-nunito', weight: ['300', '200', '400', '500', '600', '700', '700', '800', '900', '1000']})
 export const metadata: Metadata = {

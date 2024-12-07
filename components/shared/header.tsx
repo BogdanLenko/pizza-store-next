@@ -1,6 +1,6 @@
 import {FC} from 'react'
 import {cn} from '@/lib/utils'
-import {Container} from '@/components/shared/Container'
+import {Container} from '@/components/shared/container'
 import Image from 'next/image'
 import {Button} from '@/components/ui/button'
 import {ArrowRight, ShoppingCart, User} from 'lucide-react'
