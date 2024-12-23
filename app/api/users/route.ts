@@ -8,5 +8,7 @@ export async function GET() {
 
 export async function POST(req: NextRequest) {
 	const data = await req.json()
-	return prisma.user.create({data})
+	return prisma.user.create({ data }).then(user =>
+		NextResponse.json({ message: 'User created', user })
+	)
 }
